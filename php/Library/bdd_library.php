@@ -6,7 +6,7 @@ function ConnexionBDD()
 {
 	try{
 		
-		$header = new PDO("mysql:host=localhost".";dbname=ticketing","support_user","@123+aze$");
+		$header = new PDO("mysql:host=localhost".";dbname=ticketing","support_user","******");
 			
 		//echo"Connexion établie ".$host." BDD=".$nomBDD."<br>";
 		return $header;
